@@ -1,0 +1,99 @@
+QWidget{
+    background: white;
+}
+
+QPushButton{
+    border: none;
+    font-size: 20px;
+    background: #488A47;
+    color: white;
+    border-radius: 3px;
+}
+
+QPushButton:hover{
+    background: white;
+    border: 3px solid #488A47;
+    color: #488A47;
+}
+
+QPushButton#PushButtonCamera{
+    background: white;
+    border-radius: 3px;
+    color: #182817;
+    border: 2px solid #DEEFDE;
+}
+
+QPushButton#PushButtonCamera:hover{
+    background: #DEEFDE;
+}
+
+QPushButton#PushButtonDeleteCamera{
+    background: #DEEFDE;
+    border-radius: 3px;
+    color: #1E331D;
+    border: 2px solid #DEEFDE;
+}
+
+QPushButton#PushButtonDeleteCamera:hover{
+    background: #B7D9B6;
+    border: 2px solid #B7D9B6;
+}
+
+QPushButton#Back{
+    border-radius: 25px;
+    font-size: 19px;
+    color: #1E331D;
+    background: white;
+    border: 2px solid #DEEFDE;
+    padding-bottom: 5px;
+}
+
+QPushButton#Back:hover{
+    background: #DEEFDE;
+}
+
+QPushButton:disabled{
+    background: #DAF1DA;
+    border: none;
+    color: #93D791;
+    font-size: 16px;
+}
+
+QPushButton#addRect{
+    font-size: 16px;
+}
+
+QPushButton#addRect:hover{
+    background: white;
+    border: 3px solid #488A47;
+    color: #488A47;
+}
+
+QPushButton#openVideo{
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+QLabel{
+    font-size: 20px;
+    color: #1E331D;
+}
+
+QLabel#labelSmall{
+    font-size: 15px;
+}
+
+QLabel#Status{
+    font-size: 16px;
+}
+
+QLineEdit{
+    font-size: 16px;
+    color: #1E331D;
+    padding: 4px 5px;
+    margin-top: 10px;
+}
+
+QTableWidget {
+    font-size: 16px;
+}

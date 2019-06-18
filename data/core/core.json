@@ -1,0 +1,1 @@
+{"start_state": "WORK_STATE", "cameras": [{"name": "camera1", "config_path": "camera/camera1.json", "fp_white": "detectors/fp_white.json", "fp_black": "detectors/fp_black.json"}], "log_path": "C:/Users/svobodinang/Desktop/sber/settings/data/logs"}
